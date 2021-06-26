@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Дела на сегодня</title>
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="container">
+        <div class="app-header-row">
+          <div class="app-header-col">
+            <h1 class="app-title">Дела на сегодня</h1>
+            <span class="app-date"></span>
+          </div>
+          <div class="app-header-col">
+            <form class="add-task">
+              <input type="text" class="add-task-input" value="" placeholder="Добавить задачу">
+              <button class="add-task-btn" type="submit" title="Добавить задачу">+</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="board">
+        <div class="areas">
+          <div class="area area-start" data-status="start">
+            <span class="area-title start">Начать</span>
+          </div>
+          <div class="area area-progress" data-status="progress">
+            <span class="area-title progress">В процессе</span>
+          </div>
+          <div class="area area-done" data-status="done">
+            <span class="area-title done">Готовы</span>
+          </div>
+        </div>
+      </div><!-- / .board -->
+
+    </div><!-- / .container -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
