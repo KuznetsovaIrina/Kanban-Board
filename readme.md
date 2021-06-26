@@ -1,3 +1,3 @@
-Приложение мини конбан доски
+Приложение мини канбан доски
 
 Demo App https://irinaredkina.github.io/Kanban-Board/
