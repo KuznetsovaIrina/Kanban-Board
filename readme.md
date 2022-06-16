@@ -1,3 +1,3 @@
 Приложение мини канбан доски
 
-Demo App https://irinaredkina.github.io/Kanban-Board/
+Demo App https://KuznetsovaIrina.github.io/Kanban-Board/
